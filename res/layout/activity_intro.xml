@@ -1,0 +1,548 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/intradio1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:button="@drawable/clean"
+                android:onClick="mOnClick"
+                android:checked="true"
+                android:gravity="center"
+                android:background="@drawable/clicktab"
+                android:text="건학이념"
+                android:padding="5dp"
+                android:textSize="20sp" />
+
+            <RadioButton
+                    android:id="@+id/intradio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/clean"
+                    android:background="@drawable/ct2"
+                    android:text="교가 "
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:onClick="mOnClick"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+
+            <RadioButton
+                    android:id="@+id/intradio3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/clean"
+                    android:background="@drawable/ct3"
+                    android:text="연혁 "
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:onClick="mOnClick"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+
+            <RadioButton
+                    android:id="@+id/intradio4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:button="@drawable/clean"
+                    android:gravity="center"
+                    android:background="@drawable/ct4"
+                    android:text="학교 소개"
+                    android:onClick="mOnClick"
+                    android:layout_gravity="center"
+                    android:padding="5dp"
+                    android:textSize="20sp" />
+
+        </RadioGroup>
+        
+
+    </LinearLayout>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        <ScrollView
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+        		android:paddingLeft="@dimen/activity_horizontal_margin"
+        		android:paddingRight="@dimen/activity_horizontal_margin"
+       			android:paddingTop="@dimen/activity_vertical_margin"
+                android:visibility="visible" >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/img_info03" />
+
+                <TextView
+                    android:id="@+id/ti1_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#121212"
+                        android:layout_marginTop="10pt"
+                        android:layout_marginBottom="10pt"
+                        android:textSize="15sp"
+                        android:text="@string/gunhak1" />
+
+                <TextView
+                    android:id="@+id/ti1_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10pt"
+                        android:text="@string/gunhak2"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:textColor="#ff6600" />
+
+                <TextView
+                    android:id="@+id/ti1_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10pt"
+                        android:textColor="#121212"
+                        android:textSize="15sp"
+                        android:text="@string/gunhak3" />
+
+                <TextView
+                    android:id="@+id/ti2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#121212"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:text="교육이념"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/img_info03_1" />
+
+                    <TextView
+                        android:id="@+id/ti2_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5pt"
+                            android:textColor="#121212"
+                            android:textSize="22sp"
+                            android:text="애국하는 사람"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:textColor="#121212"
+                        android:text="@string/gyo1" />
+                    <TextView
+                        android:id="@+id/ti2_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="#121212"
+                            android:layout_marginTop="5pt"
+                            android:textSize="22sp"
+                            android:text="적극적인 사람"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:textColor="#121212"
+                        android:text="@string/gyo2" />
+
+
+                    <TextView
+                        android:id="@+id/ti2_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5pt"
+                            android:textSize="22sp"
+                            android:textColor="#121212"
+                            android:text="합리적인 사람"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5pt"
+                        android:textColor="#121212"
+                        android:text="@string/gyo3" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+        		android:paddingLeft="@dimen/activity_horizontal_margin"
+        		android:paddingRight="@dimen/activity_horizontal_margin"
+       			android:paddingTop="@dimen/activity_vertical_margin"
+                android:visibility="invisible" >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/ti3_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:textColor="#121212"
+                            android:text="교가" />
+
+                    <Button
+                            android:id="@+id/play"
+                            android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:gravity="center"
+                            android:textColor="#121212"
+                            android:background="@drawable/buttonplay"/>
+
+                    <Button
+                        android:id="@+id/stop"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#121212"
+                        android:gravity="center"
+                        android:background="@drawable/buttonstop"/>
+
+                </LinearLayout>
+
+                    <ScrollView
+        android:id="@+id/ScrollImage"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bugilbugil_song" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+            <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp" >
+
+                    <TextView
+                        android:id="@+id/ti3_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="30sp"
+                            android:textColor="#121212"
+                            android:text="응원가" />
+
+                    <Button
+                            android:id="@+id/play1"
+                            android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="10dp"
+                            android:textColor="#121212"
+                            android:gravity="center"
+                            android:background="@drawable/buttonplay"/>
+
+                    <Button
+                        android:id="@+id/stop1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="#121212"
+                        android:gravity="center"
+                        android:background="@drawable/buttonstop"/>
+
+                </LinearLayout>
+
+                <ScrollView
+        android:id="@+id/ScrollImage1"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bugilbugil_song2" />
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+                android:id="@+id/tab3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+        		android:paddingLeft="@dimen/activity_horizontal_margin"
+        		android:paddingRight="@dimen/activity_horizontal_margin"
+       			android:paddingTop="@dimen/activity_vertical_margin"
+                android:visibility="invisible" >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                    <Button
+                            android:id="@+id/ybtn1"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+							android:text="1970년대"
+							android:textColor="#ff6600"
+							android:textStyle="bold"
+							android:typeface="serif"
+                            android:background="#00ffffff"/>
+
+                    <Button
+                            android:id="@+id/ybtn2"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:text="1980년대"
+                            android:textColor="#ff6600"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            android:background="#00ffffff"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+
+                    <Button
+                            android:id="@+id/ybtn3"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:text="1990년대"
+                            android:textColor="#ff6600"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            android:background="#00ffffff"/>
+
+                    <Button
+                            android:id="@+id/ybtn4"
+                            android:layout_width="80dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+                            android:text="2000년대"
+                            android:textColor="#ff6600"
+                            android:textStyle="bold"
+                            android:typeface="serif"
+                            android:background="#00ffffff"/>
+
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:id="@+id/ylist1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:textColor="#000000"
+                        android:visibility="visible" >
+
+                        <ListView
+                            android:id="@+id/list70"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                        </ListView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ylist2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+						android:textColor="#000000"
+                        android:visibility="invisible" >
+
+                        <ListView
+                            android:id="@+id/list80"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                        </ListView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ylist3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+						android:textColor="#000000"
+                        android:visibility="invisible" >
+
+                        <ListView
+                            android:id="@+id/list90"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                        </ListView>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ylist4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+						android:textColor="#000000"
+                        android:visibility="invisible" >
+
+                        <ListView
+                            android:id="@+id/list20"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                        </ListView>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+                android:id="@+id/tab4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ffffff"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+        		android:paddingLeft="@dimen/activity_horizontal_margin"
+        		android:paddingRight="@dimen/activity_horizontal_margin"
+       			android:paddingTop="@dimen/activity_vertical_margin"
+                android:visibility="invisible" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/greeting_01" />
+
+                <TextView
+                    android:id="@+id/t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:textSize="15sp"
+                        android:textColor="#121212"
+                        android:text="@string/sogay1" />
+                <TextView
+                    android:id="@+id/t2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:textSize="15sp"
+                        android:textColor="#121212"
+                        android:text="@string/sogay2" />
+                <TextView
+                    android:id="@+id/t3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:textColor="#121212"
+                        android:textSize="15sp"
+                        android:text="@string/sogay2_1" />
+                <TextView
+                    android:id="@+id/t4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:textColor="#121212"
+                        android:textSize="15sp"
+                        android:text="@string/sogay3" />
+                <TextView
+                    android:id="@+id/t5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:textColor="#121212"
+                        android:textSize="15sp"
+                        android:text="@string/sogay3_1" />
+                <TextView
+                    android:id="@+id/t6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/activity_horizontal_margin"
+                        android:textColor="#121212"
+                        android:textSize="15sp"
+                        android:text="@string/sogay4" />
+                </LinearLayout>
+
+        </ScrollView>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/past"
+        android:icon="@drawable/ic_menu_back"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="저번주 급식"/>
+    <item
+        android:id="@+id/future"
+        android:icon="@drawable/ic_menu_forward"
+        android:orderInCategory="2"
+        android:showAsAction="always"
+        android:title="다음주 급식"/>
+    <item
+        android:id="@+id/setCalendar"
+        android:icon="@android:drawable/ic_menu_today"
+        android:orderInCategory="3"
+        android:showAsAction="always"
+        android:title="날짜 설정"/>
+    <item
+        android:id="@+id/sync"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:orderInCategory="4"
+        android:showAsAction="always"
+        android:title="새로고침"/>
+
+</menu>

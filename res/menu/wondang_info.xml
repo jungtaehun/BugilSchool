@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/goWeb"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="웹사이트로 이동"/>
+    <item
+        android:id="@+id/infoVideo"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:title="소개 영상"/>
+
+</menu>

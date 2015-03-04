@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 어플 기본 String -->
+    <string name="OK">확인</string>
+    <string name="EXIT">닫기</string>
+    <string name="Loading_title">로딩중...</string>
+    <string name="Loading_summary">잠시만 기다려 주세요</string>
+
+    <!-- 화정고 관련 -->
+    <string name="app_name">북일고등학교</string>
+    <string name="license_title">라이센스 정보</string>
+    <string name="license">오픈소스 라이센스 정보
+\n
+\n
+\n1. Jericho HTML Parser 3.3
+\n
+\n-License : OpenSource Library
+\n-사이트 : http://jericho.htmlparser.net/docs/index.html
+\n-사이트 설명 : It is an open source library released under both the Eclipse Public License (EPL) and GNU Lesser General Public License (LGPL). You are therefore free to use it in commercial applications subject to the terms detailed in either one of these licence documents.
+\n
+\n
+\n2. Android Meal Library
+\n
+\n-License : Open Source, Public Library
+\n-사이트 : http://itmir.tistory.com
+\n-사이트 설명 : 오픈소스 및 공개 라이브러리
+\n-비고 : Android Meal Library는 이종환(미르)님이 만드셨습니다.
+\n
+\n
+\n3. Crouton
+\n-License : Apache Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html)
+\n-사이트 : http://www.apache.org/licenses/LICENSE-2.0.html
+\n
+\n
+\n4. CroutonHelper
+\n-License : OpenSource Library
+\n-사이트 : http://whdghks913.tistory.com/481
+\n-비고 : CroutonHelper는 이종환(미르)님이 만드셨습니다.
+\n
+\n
+\n5. 멀티터치 이미지뷰
+\n-License : Do it Android 예제 소스
+\n-사이트 : http://android-town.org
+\n-비고 : 일부 소스와 단점을 직접 수정해서 사용하고 있습니다
+\n
+\n
+\n4. 학교 위치 안내 맵뷰
+\n-License : Daum Maps API
+\n-사이트 : http://apis.map.daum.net/
+\n</string>
+    <string name="changeLog">북일고 앱에 들어갈 기능에 대한 아이디어가 있으신 분께서는 주저하지 마시고 제 이메일로 메일 남겨주시면 감사드리겠습니다!
+\n설정 - 개발자에게 메일 보내기 메뉴로 메일 전송이 가능합니다
+\n #이 어플은 이종환(미르)님의 오픈소스를 기반으로 개발 되었습니다.
+\n 피드백주신 많은 분들께 감사드립니다. 피드백은 어플을 더 풍요롭게 만듭니다.
+\n\n 동아리 Bada여, 더 큰 세상을 향해!!
+\n\n
+\n[1.6] : 조금 더 큰 업데이트
+\n- 오시는 길에 북일고 지도 사진 대신에 Daum Maps API를 이용한 정확한 위치 안내
+\n- 시간표 알람 삭제
+\n- 시간표 추가(옛날 2학기 시간표를 올렸습니다. 새학기가 시작될 시 업데이트하겠습니다.)
+\n- 학교안내 디자인 수정 및 북일교 교가와 응원가 악보 사진 추가
+\n- 메인화면 배너 변경
+\n- 기타 부분적인 디자인들 수정
+\n\n
+\n[1.5] : 큰 업데이트
+\n- 설정창 적용 (이제 깔끔한 설정창을 만나볼수 있습니다!)
+\n- 급식 자동 업데이트 기능 추가 (설정 화면에서 활성화 할수 있습니다)
+\n- 메인 화면에서 가로모드 지원
+\n- 이스터에그 추가 (어플내 숨겨져있는 버튼을 찾아 이스터 에그를 발견해 보세요!)
+\n- 기타 급식 오류 수정
+\n- 급식과 시간표를 상단바에 띄우기(설정에서 설정 할 수 있습니다.)
+\n- 오프라인에서 급식과 시간표 확인하기
+\n- 연락처 메뉴 추가
+\n- 학교 일정 추가
+\n- Splash화면 추가
+\n- 급식과 시간표 알람
+\n- 디자인 수정
+</string>
+    <string name="update_app">어플이 업데이트 되었습니다!</string>
+    <string name="wondang_movies">소개 영상</string>
+
+    <!-- 전화 관련 -->
+    <string name="call_info">전화 하고자 하는 번호를 터치하세요\n터치한다고 해서 바로 전화가 걸리지는 않습니다</string>
+
+    <!-- 만든이 관련 -->
+    <string name="madeby_info">이 앱을 만든이 정보입니다</string>
+
+    <!-- 급식 관련 -->
+    <string name="shareBap_title">급식 공유하기</string>
+    <string name="shareBap_message_title">%1$s의 급식</string>
+    <string name="shareBap_message_msg">%1$s의 급식 목록
+\n
+\n\n아침 : %2$s
+\n\n점심 : %3$s
+\n\n저녁 : %4$s</string>
+    <string name="info_autoUpdate_title">급식 자동 업데이트 안내</string>
+    <string name="info_autoUpdate">급식 자동 업데이트는 매주 사용자분께서 급식을 업데이트 해야하는 불편을 덜기위해 만들어졌습니다
+\n학교에 나오는 목적중 하나인 급식을 누구보다 빨리 확인해 보세요
+\n
+\n- 업데이트 주기 : 자동, 토요일, 일요일을 선택할 수 있습니다 선택한 날짜의 AM 1:00에 업데이트가 이루어집니다
+\n- 업데이트 알림 : 급식 업데이트 중에는 설정과 관계없이 진행중 알림이 나타나며 업데이트 완료후 성공/실패여부를 알림으로 나타내줍니다
+\n- Wi-Fi로만 업데이트 : 말그대로 Wi-Fi에서만 업데이트 합니다 데이터가 부족한 학생을 위한 기능입니다 (그런대 급식 가져오는거 데이터 얼마 안들어요)
+\n
+\n
+\n아직은 부족한 기능입니다
+\n어플을 사용하시다 강제종료가 발생하면 꼭 "보고(신고)" 버튼을 눌러 신고해 주세요!</string>
+
+    <!-- 급식 액티비티 관련 -->
+    <string name="savedList">저장된 정보를 불러왔습니다\n과거 정보일경우 새로고침 해주세요</string>
+    <string name="noNetwork">연결상태가 좋지 않아 급식 정보를 받아오는대 실패했습니다</string>
+    <string name="loadingList">급식 정보를 받아오고 있습니다...</string>
+    <string name="loadList">인터넷에서 급식 정보를 받아왔습니다</string>
+    <string name="Syncing">지금 로딩중입니다</string>
+    <string name="bapInfoAlert_title">급식 자세히 보기</string>
+    <string name="bapInfoAlert_share">공유하기</string>
+    <string name="allergy_title">알레르기 정보</string>
+    <string name="allergy_msg">
+①난류
+\n②우유
+\n③메밀
+\n④땅콩
+\n⑤대두
+\n⑥밀
+\n⑦고등어
+\n⑧게
+\n⑨새우
+\n⑩돼지고기
+\n⑪복숭아
+\n⑫토마토
+\n⑬아황산염</string>
+
+    <!-- 급식 자동업데이트관련 -->
+    <string name="bapUpdateNotification_ticker">북일고등학교 급식 업데이트중</string>
+    <string name="bapUpdateNotification_title">급식 업데이트중</string>
+    <string name="bapUpdateNotification_msg">급식을 업데이트 하고 있습니다 잠시만 기다려 주세요</string>
+    <string name="bapUpdateNotification_notification">급식 업데이트 알림</string>
+    <string name="bapUpdate_Error_Wifi_title">WIFI 연결 안됨</string>
+    <string name="bapUpdate_Error_Wifi_msg">WIFI 연결이 되어 있지 않습니다 다시 시도하려면 누르세요</string>
+    <string name="bapUpdate_Error_Net_title">네트워크 연결 안됨</string>
+    <string name="bapUpdate_Error_Net_msg">인터넷에 접속할수 없습니다 다시 시도하려면 누르세요</string>
+    <string name="bapUpdate_Error_get_title">급식 가져오기 실패</string>
+    <string name="bapUpdate_Error_get_msg">급식을 가져오는대 실패했습니다 다시 시도하려면 누르세요</string>
+    <string name="bapUpdate_Success_title">급식 업데이트 성공</string>
+    <string name="bapUpdate_Success_msg">급식을 성공적으로 업데이트 했습니다 확인하려면 누르세요</string>
+
+    <!-- 대회정보 관련 -->
+    <string name="rss_full">최근 30개 게시글</string>
+    <string name="rss_info">대회 정보</string>
+    <string name="rss_noti">알림판</string>
+    <string name="internet_error">인터넷이 연결되어 있지 않습니다</string>
+
+    <!-- 교가 관련 -->
+    <string name="song_info">이미지 확대/축소 방식을 사용하려면, 상단 변경 버튼을 눌러주세요</string>
+    <string name="song_info_touch">손가락을 벌리고, 줄여서 크기를 조절할수 있습니다</string>
+    <string name="song_info_scroll">상하 좌우로 스크롤해서 악보를 볼 수 있습니다</string>
+
+    <!-- 시간표 관련 -->
+    <string name="yourGradeClass">다음부터 시간표 접속시 이 학급으로 바로 진입할까요?
+\n설정에서 학급 정보를 초기화 할수 있습니다
+\n
+\n-확인 : 다음부터 이 학급으로 바로 접속합니다(설정에서 제거 가능)
+\n-취소 : 이 학급으로 접속하지 않으며, 다른 학급 접속시 다시 물어봅니다
+\n-다시표시안함 : 학급으로 바로 접속 기능을 비활성화 합니다</string>
+    <string name="shareTimeTable_message_title">%1$s 시간표 공유</string>
+    <string name="shareTimeTable_message_message">%1$s 시간표
+\n1교시 : %2$s
+\n2교시 : %4$s
+\n3교시 : %6$s
+\n4교시 : %8$s
+\n5교시 : %10$s
+\n6교시 : %12$s
+\n7교시 : %14$s</string>
+    <string name="title_activity_cafe">입학카페</string>
+    <string name="title_activity_intro">학교안내</string>
+    <string name="title_activity_road">오시는길</string>
+    <string name="title_activity_club">동아리</string>
+    <string name="title_activity_notice">공지사항</string>
+    <string name="title_activity_welcome">입학안내</string>
+    <string name="title_activity_bada">동아리 정보</string>
+    <string name="title_activity_cal">학사일정</string>
+    <string name="title_activity_main">북일고등학교</string>
+    <string name="cafabtn">입학카페</string>
+    <string name="gunhak1">본교는 1976년 한화그룹 창업주 현암 김종희 선생이 동양 제일의 교육 환경과 교육시설에 무제한의 장학금을 쾌척하여 설립한 일반계 고등학교 입니다. 학문에 뜻을 둔 우수한 인재를 발굴하여, 개인의 경제적 여건에 구애받지 않고, 면학에 정진케하여 국가 사회에 기여 봉사할 유용한 역군으로 양성함을 건학이념으로 하고 있습니다.</string>
+    <string name="gunhak2">&quot;새로운 시대에는 능력 있는 새로운 인재를 필요로 한다. 학교 교육도 시대가 요구하는 동량재를 교육시켜야 하는 의의가 있으므로 국가 백년대계의 근본적 초석이 된다.&quot;</string>
+    <string name="gunhak3">본교는 이러한 원대한 포부를 지니고, 학문에 뜻을 둔 우수한 인재를 발굴하여 개인의 경제적 여건에 구애받지 않고 면학에 정진하여 국가 사회에 기여 봉사할 유용한 역군을 양성함을 목적으로 한다</string>
+    <string name="gyo1">대의에 투철한 정신으로 국가 사회에 기여할 수 있는, 진실한 애국애족의 정신을 솔선 실천 궁행하는 인간을 육성한다.</string>
+    <string name="gyo2">소극적이고 의존적인 생활태도를 지양하고, 적극적이고 능동적인 진취적 인간을 육성한다.</string>
+    <string name="gyo3">원리원칙을 존중하고 적당 요령 주의를 배제함으로써 합리적인 생활 신조의 철학아래 창의적이고 능동적인 인간을 육성한다.</string>
+    <string name="title_activity_meal">Meal</string>
+    <string name="play_str">PLAY</string>
+    <string name="pause_str">PAUSE</string>
+    <string name="spinner">몇월의 학사를 보실건가요?</string>
+    <string name="sogay1">북일고등학교는 학문에 뜻을 둔 우수한 인재를 발굴하여 개인의 경제적 여건에 구애 받지 않고 면학에 정진케 함으로써 국사 사회에 기여 봉사하는 유능한 역군을 양성하는 것을 건학 이념으로 하고 있습니다.\n</string>
+    <string name="sogay2">또한 1976년 개교 이래 우리나라 중등교육을 선도하는 학교로서 국가가 필요로 하는 인재 양성에 혼신의 힘을 다하고 있습니다.\n</string>
+    <string name="sogay2_1">더 나아가 기존의 틀에 안주하지 않고 변화와 혁신을 통해 최고를 추구하면서 미래 사회가 필요로 하는 창의성과 인성을 겸비한 글로벌 리더를 양성하기 위해 노력하겠습니다.\n</string>
+    <string name="sogay3">이제 북일고는 새로운 비전을 갖고 도전을 시작하고자 합니다.\n</string>
+    <string name="sogay3_1">제2의 개교를 한다는 각오로 학생들의 성장과 발달을 위해 교육서비스의 질 향상을 최우선의 목표로 삼아 감동을 주는 학교, 그리고 미래를 준비하는 학교를 만들어 가겠습니다.</string>
+    <string name="sogay4">우리나라는 물론 세계에서 모범이 되는 학교로 거듭나도록 하겠습니다.\n이 어플리케이선이 본교를 아끼고 사랑하는 모든 분들을 위한 소통의 장이 되기를 희망합니다.\n\n감사합니다.</string>
+    <string name="song1">1절: 보아라 우리들은 태양의 아들\n뜨겁고 밝은 뜻을 가슴깊이 지니고\n이나라 이겨례의 내일을 위해\n배운다 그 슬기 참을 빛낸다 아아~</string>
+    <string name="song1_3">2절: 보아라 우리들은 별들의 친구\n찬란하고 영원한 꿈 가슴깊이 불태워\n이나라 이겨례의 영광을 위해\n닦는다 그인격과 힘을 기른다 아아~~</string>
+    <string name="song1_2">진리 정의 사랑과 평화를 위해\n기상도 늠름하게 굳센 의지로\n나간다 우리들은 쉬지 않는다</string>
+    <string name="song2">1절: 자랑스런 북일건아 웅자를 보라\n힘찬 기상 젋은 투지 누가 꺽으며\n맑은 정기 솟는 지혜 누가 따르랴\n나아가자 최강북일 무적의 용사\n우리 북일 가는 길에 승리뿐이다\n몸과 마음 한데 뭉쳐\n싸워 나가자\n\n2절: 영광스런 북일건아 웅자를 보라\n뛰는 맥박 장한 용기 누가 견디며\n타는 소망 밝은 슬기 누가 당하랴\n나아가자 북일건아 정의의 용사\n우리 북일 가는 길에 승리뿐이다\n몸과 마음 한데 뭉쳐\n싸워 나가자\n</string>
+
+</resources>

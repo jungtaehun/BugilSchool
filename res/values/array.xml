@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="item_entries">
+        <item>자동</item>
+        <item>매주 토요일</item>
+        <item>매주 일요일</item>
+    </string-array>
+    <string-array name="item_entries_value">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="y1">
+        <item>1975.05.31     학교법인 천안북일학원 설립 허가(설립자 및 초대 이사장 현암 김종희 선생)</item>
+        <item>1975.11.14     천안북일고등학교 설립 허가</item>
+        <item>1975.12.01     초대 교장 권혁조 선생 취임</item>
+        <item>1976.03.06     개교 및 제1회 입학식</item>
+        <item>1977.03.05     야구부 창단</item>
+        <item>1977.09.24     실내체육관 및 대강당 준공</item>
+        <item>1979.01.10     제1회 졸업식</item>
+        <item>1979.05.15     야구장 준공</item>
+    </string-array>
+    
+    <string-array name="y2">
+        <item>1981.08.01     제2대 김승연(한화그룹 회장)이사장 취임</item>
+        <item>1983.02.23     제2대 교장 이충웅 선생 취임</item>
+    </string-array>
+    
+    <string-array name="y3">
+        <item>1996.03.06     기숙사(여송학사)준공</item>
+        <item>1998.09.01     제3대 교장 안흥숙 선생 취임</item>
+    </string-array>
+    
+    <string-array name="y4">
+        <item>2001.03.02     제4대 교장 이창구 선생 취임</item>
+        <item>2002.12.12     별관동(3층)신축</item>
+        <item>2004.09.01     제5대 교장 엄동일 선생 취임</item>
+        <item>2007.03.05     제6대 교장 신현주 선생 취임</item>
+        <item>2009.03.02     북일고등학교로 교명 변경</item>
+        <item>2009.07.31     자율형 사립학교 지정</item>
+        <item>2011.07.15     기숙사 증축 준공</item>
+        <item>2011.09.01     제7대 교장 강익수 선생 취임</item>
+        <item>2012.02.08     제34회 졸업식(졸업생 총수 19,478명)</item>
+        <item>2012.03.05     제37회 입학식(392명)</item>
+        <item>2013.02.07     제35회 졸업식(졸업생 총수 19,797명)</item>
+        <item>2013.03.04     제38회 입학식</item>
+    </string-array>
+    
+<string-array name="august">
+<item>(08월08일)성적평가회</item>
+<item>(08월15일)광복절</item>
+<item>(08월18일)2학기 정부 반장 선거</item>
+<item>(08월18일)개학</item>
+<item>(08월18일)학부모 상담 주간</item>
+<item>(08월20일)1회고사(3학년)</item>
+<item>(08월21일)1회고사(3학년)</item>
+<item>(08월22일)1회고사(3학년)</item>
+<item>(08월23일)3차 학교 설명회</item>
+<item>(08월25일)정부반장임명장수여</item>
+</string-array>
+
+<string-array name="september">
+<item>(09월03일)전국연합학력평가(1,2학년/인천)</item>
+<item>(09월03일)대수능모의평가(3학년)</item>
+<item>(09월05일)정기외박</item>
+<item>(09월08일)추석</item>
+<item>(09월09일)추석휴가</item>
+<item>(09월10일)추석대체휴무</item>
+<item>(09월16일)영어듣기평가(1학년)</item>
+<item>(09월17일)영어듣기평가(2학년)</item>
+<item>(09월18일)영어듣기평가(3학년)</item>
+<item>(09월22일)교원 학생 만족도 조사</item>
+<item>(09월25일)수업공개기간</item>
+<item>(09월27일)4차 학교 설명회</item>
+</string-array>
+
+<string-array name="october">
+<item>(10월02일)정기외박</item>
+<item>(10월03일)개천절</item>
+<item>(10월06일)교원 학부모 만족도 조사</item>
+<item>(10월07일)전국연합학력평가(3학년/서울)</item>
+<item>(10월09일)5차 학교 설명회</item>
+<item>(10월09일)한글날</item>
+<item>(10월10일)1회고사(1,2학년)</item>
+<item>(10월13일)1회고사(1,2학년)</item>
+<item>(10월14일)1회고사(1,2학년)</item>
+<item>(10월15일)북일정신함양프로그램</item>
+<item>(10월31일)학부모 컨퍼런스</item>
+<item>(10월31일)정기외박</item>
+</string-array>
+
+<string-array name="november">
+<item>(11월13일)2015 대입수능시험</item>
+<item>(11월17일)2회고사(3학년)</item>
+<item>(11월18일)2회고사(3학년)</item>
+<item>(11월18일)전국연합학력평가(1,2학년/경기)</item>
+<item>(11월19일)2회고사(3학년)</item>
+<item>(11월27일)학술제</item>
+<item>(11월28일)학술제</item>
+<item>(11월28일)학부모 컨퍼런스</item>
+<item>(11월28일)정기외박</item>
+<item>(11월29일)동계 방과후 신청</item>
+</string-array>
+
+<string-array name="december">
+<item>(12월22일)2회고사(1,2학년)</item>
+<item>(12월23일)2회고사(1,2학년)</item>
+<item>(12월24일)2회고사(1,2학년)</item>
+<item>(12월25일)성탄절</item>
+<item>(12월31일)동계 방학식</item>
+</string-array>
+
+<string-array name="january">
+<item>(01월01일)신정</item>
+<item>(01월02일)시무식</item>
+<item>(01월05일)1,2학년 보충수업</item>
+<item>(01월12일)1차 신입생 적응캠프</item>
+<item>(01월29일)교직원 연수</item>
+</string-array>
+
+<string-array name="february">
+<item>(02월02일)개학</item>
+<item>(02월05일)제 37회 졸업식</item>
+<item>(02월06일)종업식</item>
+<item>(02월19일)설날</item>
+<item>(02월23일)2차 신입생 적응 캠프</item>
+</string-array>
+
+
+<string-array name="bada">
+    <item>제작      : 북일고등학교 정보과학 동아리 Bada</item>
+    <item>제작자 : 북일고 38기 정태훈</item>
+    <item>어플 버전 : 1.6.1</item>
+</string-array>
+<string-array name="dow">
+        <item>2014년 8월</item>
+        <item>2014년 9월</item>
+        <item>2014년 10월</item>
+        <item>2014년 11월</item>
+        <item>2014년 12월</item>
+        <item>2015년 1월</item>
+        <item>2015년 2월</item>
+    </string-array>
+
+</resources>

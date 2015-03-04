@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="bugil.bada.bugilapp"
+    android:versionCode="16"
+    android:versionName="1.6.1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bugil1"
+        
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="bugil.bada.bugilapp.Splash"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Sherlock.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="bugil.bada.bugilapp.SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.WondangInfo"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="화정고 소개"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.MadeBy"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="만든이"
+            android:parentActivityName="bugil.bada.bugilapp.SettingsActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.Webview"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.bap.Bap"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/meal"
+            android:label="급식"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.Call"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/calling"
+            android:label="연락처"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.schedule.Schedule"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/calendar"
+            android:label="일정"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.SettingsActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:label="설정"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+            
+       
+        <activity
+            android:name="bugil.bada.bugilapp.rss.InfoRSSActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/rss"
+            android:label="학교 정보"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.timetable.TimeTableGrade"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/time"
+            android:label="시간표(학년,반)"
+            android:parentActivityName="bugil.bada.bugilapp.MainActivity"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.timetable.TimeTableScrollTab"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:icon="@drawable/time"
+            android:label="시간표"
+            android:parentActivityName="bugil.bada.bugilapp.timetable.TimeTableGrade"
+            android:theme="@style/Theme.Bada" />
+        <activity
+            android:name="bugil.bada.bugilapp.Bada"
+            android:label="@string/title_activity_bada"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bugil.bada.bugilapp.Cafe"
+            android:label="@string/title_activity_cafe"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="bugil.bada.bugilapp.Cal"
+            android:label="@string/title_activity_cal"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bugil.bada.bugilapp.Club"
+            android:label="@string/title_activity_club"
+            android:icon="@drawable/club"
+            android:theme="@style/Theme.Bada"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bugil.bada.bugilapp.intro.Intro"
+            android:label="@string/title_activity_intro"
+            android:icon="@drawable/bugil"
+            android:theme="@style/Theme.Bada"
+            android:screenOrientation="portrait" >
+        </activity>
+    <activity
+        android:name="bugil.bada.bugilapp.Notice"
+            android:label="@string/title_activity_notice"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bugil.bada.bugilapp.Road"
+            android:label="@string/title_activity_road"
+            android:icon="@drawable/road"
+            android:theme="@style/Theme.Bada"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="bugil.bada.bugilapp.Welcome"
+            android:label="@string/title_activity_welcome"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver android:name="bugil.bada.bugilapp.bapautoupdate.BroadCast" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+            </receiver>
+            
+        <service
+       android:name="bugil.bada.bugilapp.bapautoupdate.updateService"
+            android:label="자동 업데이트 서비스" />
+        <service 
+            android:name="bugil.bada.bugilapp.noti.bapnoti" >
+            </service>
+        <service android:name="bugil.bada.school.bap.alarmService" >
+        </service>
+
+        <receiver android:name=".noti.AutoStartNotifyReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="bugil.bada.bugilapp.noti.timenoti"></service>
+        <activity android:name="THFeedbacks"></activity>
+        <provider
+    android:name="com.tyczj.extendedcalendarview.CalendarProvider"
+    android:authorities="com.tyczj.extendedcalendarview.calendarprovider" />
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<resources>
+
+    <color name="background">#80ffd700</color>
+    <color name="background_blue">#8033b5e5</color>
+
+    <!-- 구글나우 카드 형식 -->
+    <integer name="card_press_fade_duration">500</integer>
+
+    <color name="selection_highlight_color">#ffc9ebf8</color>
+    <color name="card_pressed_bg_white">#fff8f8f8</color>
+    <color name="bblue">#aa558bcf</color>
+    <color name="byellow">#aaf6b65a</color>
+    <color name="bgreen">#aa345f53</color>
+    <color name="bred">#aa951f34</color>
+    <color name="bt">#00ffffff</color>
+    <color name="bw">#ffffff</color>
+    
+
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="히든메뉴" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="customBap"
+            android:summary="급식 키워드를 설정합니다"
+            android:title="급식 하이라이트" />
+
+        <EditTextPreference
+            android:dependency="customBap"
+            android:key="customBapKeyWord"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="급식 키워드 설정하기" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
