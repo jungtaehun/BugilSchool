@@ -1,6 +1,6 @@
-﻿인천 원당 고등학교 (Wondang High School)
+﻿북일 고등학교 (Bugil Academy)
 ========================================
-Copyright (C) 2014 JongHwan Lee <whdghks913@gmail.com> [itmir.tistory.com](http://itmir.tistory.com)
+Copyright (C) 2015 Taehun Jung <wxg1297@naver.com>
 ------------------------------------------------------------------------------------------------
 
 
@@ -8,11 +8,16 @@ Copyright (C) 2014 JongHwan Lee <whdghks913@gmail.com> [itmir.tistory.com](http:
 Info
 ----
 
-인천 원당 고등학교 안드로이드 앱 오픈소스 사이트
+북일고 어플리케이션은 북일고 정보과학동아리 Bada에서 만든 최초의 어플리케이션으로 아직 미숙하지만, 많은 관심 바랍니다.
 
-학교앱을 사용해 주시는 여러분, 학교앱을 개발중이신 여러분 이 사이트에 방문해 주셔서 감사드립니다
-이 앱의 오픈소스화가 여러분께 도움이 되었으면 합니다
-궁금하신 점 또는 해결이 안되는 점이 있다면 개발자 블로그 [itmir.tistory.com](http://itmir.tistory.com)으로 방문해 주시기 바람니다
+이 어플리케이션은 미르(whdghks913)님의 "인천 원당 고등학교 어플리케이션"을 기반으로 제작되었으며,
+급식은 Toast님의 MealLibrary를, 오는 길의 지도는 Daum Maps API를 사용했습니다.
+
+
+학교안내부터 공지사항, 급식안내, 시간표, 동아리, 학사일정, 입학안내, 입학카페, 오는길, 연락처로 되어있고, 설정창을 통해 급식이 자동으로 업데이트가 가능합니다.
+
+
+만약 문제가 발생할 시, wxg1297@naver.com으로 문의하시기 바랍니다.
 
 
 
@@ -23,13 +28,14 @@ Info
 - Jericho Library
 - Crouton Helper
 - Android Meal Library
+- Daum Maps API
 
 
 
 라이센스
 --------
 
-- 별도의 언급이 있는 경우를 제외하고 인천 원당고등학교 어플은 [아파치 라이센스 2.0버전](http://www.apache.org/licenses/LICENSE-2.0.html)이 적용됩니다
+- 북일고등학교 어플리케이션은 [아파치 라이센스 2.0버전](http://www.apache.org/licenses/LICENSE-2.0.html)이 적용됩니다
 - 누구나 이 앱에 전체, 또는 일부를 사용할수 있으며, 수정 및 재배포 가능합니다
 - 수정 및 재배포시 앱 정보에 이 bitbucket.org주소를 추가해 주세요
 - 개발자에게 저작권이 있고 이 앱에 포함되어 있는 모든 소스의 상업적 이용을 허락하지 않습니다
