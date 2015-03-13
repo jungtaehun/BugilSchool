@@ -12,14 +12,15 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="199dp"
-        android:src="@drawable/badaname" />
+        android:layout_height="0dp"
+        android:src="@drawable/badaname"
+        android:layout_weight="1" />
 
     <ListView
         android:id="@+id/badalist"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="0.66" >
+        android:layout_height="0dp"
+        android:layout_weight="1" >
     </ListView>
 
 

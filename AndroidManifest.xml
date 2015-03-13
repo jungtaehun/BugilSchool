@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest package="bugil.bada.bugilapp"
-    android:versionCode="16"
-    android:versionName="1.6.1" xmlns:android="http://schemas.android.com/apk/res/android">
+    android:versionCode="17"
+    android:versionName="1.6.5" xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-sdk
         android:minSdkVersion="11"
@@ -111,50 +111,42 @@
             android:theme="@style/Theme.Bada" />
         <activity
             android:name="bugil.bada.bugilapp.Bada"
-            android:label="@string/title_activity_bada"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_bada" >
         </activity>
         <activity
             android:name="bugil.bada.bugilapp.Cafe"
-            android:label="@string/title_activity_cafe"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_cafe" >
         </activity>
         
         <activity
             android:name="bugil.bada.bugilapp.Cal"
-            android:label="@string/title_activity_cal"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_cal" >
         </activity>
         <activity
             android:name="bugil.bada.bugilapp.Club"
             android:label="@string/title_activity_club"
             android:icon="@drawable/club"
-            android:theme="@style/Theme.Bada"
-            android:screenOrientation="portrait" >
+            android:theme="@style/Theme.Bada" >
         </activity>
         <activity
             android:name="bugil.bada.bugilapp.intro.Intro"
             android:label="@string/title_activity_intro"
             android:icon="@drawable/bugil"
-            android:theme="@style/Theme.Bada"
-            android:screenOrientation="portrait" >
+            android:theme="@style/Theme.Bada" >
         </activity>
     <activity
         android:name="bugil.bada.bugilapp.Notice"
-            android:label="@string/title_activity_notice"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_notice" >
         </activity>
         <activity
             android:name="bugil.bada.bugilapp.Road"
             android:label="@string/title_activity_road"
             android:icon="@drawable/road"
-            android:theme="@style/Theme.Bada"
-            android:screenOrientation="portrait" >
+            android:theme="@style/Theme.Bada" >
         </activity>
         <activity
             android:name="bugil.bada.bugilapp.Welcome"
-            android:label="@string/title_activity_welcome"
-            android:screenOrientation="portrait" >
+            android:label="@string/title_activity_welcome" >
         </activity>
 
         <receiver android:name="bugil.bada.bugilapp.bapautoupdate.BroadCast" >

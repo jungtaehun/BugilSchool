@@ -47,100 +47,12 @@
         <item>2013.03.04     제38회 입학식</item>
     </string-array>
     
-<string-array name="august">
-<item>(08월08일)성적평가회</item>
-<item>(08월15일)광복절</item>
-<item>(08월18일)2학기 정부 반장 선거</item>
-<item>(08월18일)개학</item>
-<item>(08월18일)학부모 상담 주간</item>
-<item>(08월20일)1회고사(3학년)</item>
-<item>(08월21일)1회고사(3학년)</item>
-<item>(08월22일)1회고사(3학년)</item>
-<item>(08월23일)3차 학교 설명회</item>
-<item>(08월25일)정부반장임명장수여</item>
-</string-array>
-
-<string-array name="september">
-<item>(09월03일)전국연합학력평가(1,2학년/인천)</item>
-<item>(09월03일)대수능모의평가(3학년)</item>
-<item>(09월05일)정기외박</item>
-<item>(09월08일)추석</item>
-<item>(09월09일)추석휴가</item>
-<item>(09월10일)추석대체휴무</item>
-<item>(09월16일)영어듣기평가(1학년)</item>
-<item>(09월17일)영어듣기평가(2학년)</item>
-<item>(09월18일)영어듣기평가(3학년)</item>
-<item>(09월22일)교원 학생 만족도 조사</item>
-<item>(09월25일)수업공개기간</item>
-<item>(09월27일)4차 학교 설명회</item>
-</string-array>
-
-<string-array name="october">
-<item>(10월02일)정기외박</item>
-<item>(10월03일)개천절</item>
-<item>(10월06일)교원 학부모 만족도 조사</item>
-<item>(10월07일)전국연합학력평가(3학년/서울)</item>
-<item>(10월09일)5차 학교 설명회</item>
-<item>(10월09일)한글날</item>
-<item>(10월10일)1회고사(1,2학년)</item>
-<item>(10월13일)1회고사(1,2학년)</item>
-<item>(10월14일)1회고사(1,2학년)</item>
-<item>(10월15일)북일정신함양프로그램</item>
-<item>(10월31일)학부모 컨퍼런스</item>
-<item>(10월31일)정기외박</item>
-</string-array>
-
-<string-array name="november">
-<item>(11월13일)2015 대입수능시험</item>
-<item>(11월17일)2회고사(3학년)</item>
-<item>(11월18일)2회고사(3학년)</item>
-<item>(11월18일)전국연합학력평가(1,2학년/경기)</item>
-<item>(11월19일)2회고사(3학년)</item>
-<item>(11월27일)학술제</item>
-<item>(11월28일)학술제</item>
-<item>(11월28일)학부모 컨퍼런스</item>
-<item>(11월28일)정기외박</item>
-<item>(11월29일)동계 방과후 신청</item>
-</string-array>
-
-<string-array name="december">
-<item>(12월22일)2회고사(1,2학년)</item>
-<item>(12월23일)2회고사(1,2학년)</item>
-<item>(12월24일)2회고사(1,2학년)</item>
-<item>(12월25일)성탄절</item>
-<item>(12월31일)동계 방학식</item>
-</string-array>
-
-<string-array name="january">
-<item>(01월01일)신정</item>
-<item>(01월02일)시무식</item>
-<item>(01월05일)1,2학년 보충수업</item>
-<item>(01월12일)1차 신입생 적응캠프</item>
-<item>(01월29일)교직원 연수</item>
-</string-array>
-
-<string-array name="february">
-<item>(02월02일)개학</item>
-<item>(02월05일)제 37회 졸업식</item>
-<item>(02월06일)종업식</item>
-<item>(02월19일)설날</item>
-<item>(02월23일)2차 신입생 적응 캠프</item>
-</string-array>
 
 
 <string-array name="bada">
     <item>제작      : 북일고등학교 정보과학 동아리 Bada</item>
     <item>제작자 : 북일고 38기 정태훈</item>
-    <item>어플 버전 : 1.6.1</item>
+    <item>어플 버전 : 1.6.5</item>
 </string-array>
-<string-array name="dow">
-        <item>2014년 8월</item>
-        <item>2014년 9월</item>
-        <item>2014년 10월</item>
-        <item>2014년 11월</item>
-        <item>2014년 12월</item>
-        <item>2015년 1월</item>
-        <item>2015년 2월</item>
-    </string-array>
 
 </resources>

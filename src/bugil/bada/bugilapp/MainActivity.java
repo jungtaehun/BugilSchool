@@ -6,7 +6,6 @@ import java.util.Calendar;
 import bugil.bada.bugilapp.bap.Bap;
 import bugil.bada.bugilapp.intro.Intro;
 import bugil.bada.bugilapp.noti.timenoti;
-import bugil.bada.bugilapp.rss.InfoRSSActivity;
 import bugil.bada.bugilapp.schedule.Schedule;
 import bugil.bada.bugilapp.timetable.TimeTableGrade;
 import bugil.bada.bugilapp.timetable.TimeTableScrollTab;

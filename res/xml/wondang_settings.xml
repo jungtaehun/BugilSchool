@@ -81,7 +81,7 @@
             android:title="개발자에게 메일 보내기" >
             <intent
                 android:action="android.intent.action.SENDTO"
-                android:data="mailto:wxg1297@gmail.com" />
+                android:data="mailto:wxg1297@naver.com" />
         </Preference>
         <Preference
             android:summary="피드백은 어플을 더 풍요롭게 만듭니다!"
@@ -92,7 +92,7 @@
         </Preference>
         <Preference
             android:key="appVersion"
-            android:summary="v1.6.1"
+            android:summary="v1.6.5"
             android:title="어플 버전" />
         
     </PreferenceCategory>
